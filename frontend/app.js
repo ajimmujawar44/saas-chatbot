@@ -49,11 +49,10 @@ async function handleSendMessage() {
     chatFeed.scrollTop = chatFeed.scrollHeight;
 
     //http://127.0.0.1:8000
-    //https://saas-chatbot-mii6.vercel.app/
-    //saas-chatbot-mii6-idr6r0ifb-mujawar-ai.vercel.app
+    //https://saas-chatbot-h9ex.onrender.com
     try {
         // Dynamic path configuration optimized for Vercel builds
-        const response = await fetch('https://saas-chatbot-mii6.vercel.app/api/chat', {
+        const response = await fetch('https://saas-chatbot-h9ex.onrender.com/api/chat', {
             method: 'POST',
             headers: { 
                 'Content-Type': 'application/json'
