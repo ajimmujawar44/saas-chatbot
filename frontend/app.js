@@ -53,7 +53,7 @@ async function handleSendMessage() {
     //saas-chatbot-mii6-idr6r0ifb-mujawar-ai.vercel.app
     try {
         // Dynamic path configuration optimized for Vercel builds
-        const response = await fetch('saas-chatbot-mii6-idr6r0ifb-mujawar-ai.vercel.app/api/chat', {
+        const response = await fetch('https://saas-chatbot-mii6.vercel.app/api/chat', {
             method: 'POST',
             headers: { 
                 'Content-Type': 'application/json'
